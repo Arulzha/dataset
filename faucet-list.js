@@ -55,6 +55,7 @@
         var linkCell = document.createElement("td");
         var button = document.createElement("button");
         button.textContent = "Visit Site";
+        button.addClass = "button";
         button.onclick = function() {
           window.location.href = faucet.link;
         };
